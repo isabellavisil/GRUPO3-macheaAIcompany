@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+<diagram id="bpmn-inscripcion" name="Inscripción a talleres">
+<mxGraphModel dx="1400" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="900" math="0" shadow="0">
+<root>
+<mxCell id="0"/>
+<mxCell id="1" parent="0"/>
+<mxCell id="pool" value="Fundación Semillas del Barrio · Inscripción de asistentes a cada taller" style="swimlane;html=1;horizontal=0;startSize=30;whiteSpace=wrap;fontStyle=1;fontSize=14;fillColor=#d9d9d9;strokeColor=#666666;swimlaneFillColor=#ffffff;" vertex="1" parent="1">
+<mxGeometry x="40" y="40" width="1560" height="720" as="geometry"/>
+</mxCell>
+<mxCell id="lane1" value="Coordinadora de talleres" style="swimlane;html=1;horizontal=0;startSize=30;whiteSpace=wrap;fontSize=13;fillColor=#f2f2f2;strokeColor=#666666;swimlaneFillColor=#ffffff;" vertex="1" parent="pool">
+<mxGeometry x="30" y="0" width="1530" height="200" as="geometry"/>
+</mxCell>
+<mxCell id="lane2" value="Asistente (joven)" style="swimlane;html=1;horizontal=0;startSize=30;whiteSpace=wrap;fontSize=13;fillColor=#f2f2f2;strokeColor=#666666;swimlaneFillColor=#ffffff;" vertex="1" parent="pool">
+<mxGeometry x="30" y="200" width="1530" height="200" as="geometry"/>
+</mxCell>
+<mxCell id="lane3" value="Formulario QR + hoja de cálculo" style="swimlane;html=1;horizontal=0;startSize=30;whiteSpace=wrap;fontSize=13;fillColor=#f2f2f2;strokeColor=#666666;swimlaneFillColor=#ffffff;" vertex="1" parent="pool">
+<mxGeometry x="30" y="400" width="1530" height="320" as="geometry"/>
+</mxCell>
+<mxCell id="s1" value="Taller programado" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;fontSize=12;outline=standard;symbol=general;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="lane1">
+<mxGeometry x="80" y="80" width="40" height="40" as="geometry"/>
+</mxCell>
+<mxCell id="t1" value="Definir cupo máximo del taller y generar el código QR" style="shape=mxgraph.bpmn.task;whiteSpace=wrap;rounded=1;size=14;html=1;taskMarker=abstract;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="lane1">
+<mxGeometry x="180" y="65" width="150" height="70" as="geometry"/>
+</mxCell>
+<mxCell id="t2" value="Publicar el código QR en la convocatoria del taller" style="shape=mxgraph.bpmn.task;whiteSpace=wrap;rounded=1;size=14;html=1;taskMarker=abstract;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="lane1">
+<mxGeometry x="380" y="65" width="150" height="70" as="geometry"/>
+</mxCell>
+<mxCell id="t3" value="Escanear el código QR con el celular" style="shape=mxgraph.bpmn.task;whiteSpace=wrap;rounded=1;size=14;html=1;taskMarker=abstract;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="lane2">
+<mxGeometry x="530" y="65" width="150" height="70" as="geometry"/>
+</mxCell>
+<mxCell id="t4" value="Diligenciar y enviar el formulario de inscripción" style="shape=mxgraph.bpmn.task;whiteSpace=wrap;rounded=1;size=14;html=1;taskMarker=abstract;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="lane2">
+<mxGeometry x="730" y="65" width="150" height="70" as="geometry"/>
+</mxCell>
+<mxCell id="t5" value="Registrar la inscripción en la hoja de cálculo" style="shape=mxgraph.bpmn.task;whiteSpace=wrap;rounded=1;size=14;html=1;taskMarker=abstract;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="lane3">
+<mxGeometry x="730" y="85" width="150" height="70" as="geometry"/>
+</mxCell>
+<mxCell id="g1" value="¿Hay cupos disponibles?" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=top;labelBackgroundColor=#ffffff;verticalAlign=bottom;align=center;perimeter=rhombusPerimeter;background=none;outlineConnect=0;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;outline=none;symbol=exclusiveGw;" vertex="1" parent="lane3">
+<mxGeometry x="955" y="95" width="50" height="50" as="geometry"/>
+</mxCell>
+<mxCell id="t6" value="Confirmar la inscripción y descontar un cupo" style="shape=mxgraph.bpmn.task;whiteSpace=wrap;rounded=1;size=14;html=1;taskMarker=abstract;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="lane3">
+<mxGeometry x="1070" y="85" width="150" height="70" as="geometry"/>
+</mxCell>
+<mxCell id="g2" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=top;labelBackgroundColor=#ffffff;verticalAlign=bottom;align=center;perimeter=rhombusPerimeter;background=none;outlineConnect=0;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;outline=none;symbol=parallelGw;" vertex="1" parent="lane3">
+<mxGeometry x="1250" y="95" width="50" height="50" as="geometry"/>
+</mxCell>
+<mxCell id="t7" value="Enviar confirmación de inscripción al asistente" style="shape=mxgraph.bpmn.task;whiteSpace=wrap;rounded=1;size=14;html=1;taskMarker=abstract;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="lane3">
+<mxGeometry x="1330" y="85" width="150" height="70" as="geometry"/>
+</mxCell>
+<mxCell id="e1" value="Inscripción confirmada" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;fontSize=12;outline=end;symbol=terminate;fillColor=#f8cecc;strokeColor=#b85450;verticalLabelPosition=top;verticalAlign=bottom;" vertex="1" parent="lane2">
+<mxGeometry x="1385" y="80" width="40" height="40" as="geometry"/>
+</mxCell>
+<mxCell id="t9" value="Consultar lista de inscritos y cupos disponibles" style="shape=mxgraph.bpmn.task;whiteSpace=wrap;rounded=1;size=14;html=1;taskMarker=abstract;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="lane1">
+<mxGeometry x="1200" y="65" width="150" height="70" as="geometry"/>
+</mxCell>
+<mxCell id="e3" value="Lista revisada" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;fontSize=12;outline=end;symbol=terminate;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="lane1">
+<mxGeometry x="1385" y="80" width="40" height="40" as="geometry"/>
+</mxCell>
+<mxCell id="t8" value="Informar al asistente que el cupo está agotado" style="shape=mxgraph.bpmn.task;whiteSpace=wrap;rounded=1;size=14;html=1;taskMarker=abstract;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="lane3">
+<mxGeometry x="905" y="230" width="150" height="70" as="geometry"/>
+</mxCell>
+<mxCell id="e2" value="Inscripción no realizada" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;fontSize=12;outline=end;symbol=terminate;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="lane3">
+<mxGeometry x="1135" y="245" width="40" height="40" as="geometry"/>
+</mxCell>
+<mxCell id="f1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="s1" target="t1">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell>
+<mxCell id="f2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="t1" target="t2">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell>
+<mxCell id="f3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="t2" target="t3">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell>
+<mxCell id="f4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="t3" target="t4">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell>
+<mxCell id="f5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="t4" target="t5">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell>
+<mxCell id="f6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="t5" target="g1">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell>
+<mxCell id="f7" value="Sí" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="g1" target="t6">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell>
+<mxCell id="f8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="t6" target="g2">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell>
+<mxCell id="f9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="g2" target="t7">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell>
+<mxCell id="f10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="t7" target="e1">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell>
+<mxCell id="f11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="g2" target="t9">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell>
+<mxCell id="f12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="t9" target="e3">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell>
+<mxCell id="f13" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="g1" target="t8">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell>
+<mxCell id="f14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="t8" target="e2">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell>
+</root>
+</mxGraphModel>
+</diagram>
+</mxfile>
