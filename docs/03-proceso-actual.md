@@ -44,7 +44,7 @@ Finales:
 
 ## 4. Diagrama BPMN
 
-![BPMN proceso actual](../assets/bpmn-actual.png)
+![BPMN proceso actual](../docs/assets/Diagrama ghant.png)
 
 Archivo editable: [bpmn-actual.bpmn](../assets/bpmn-actual.bpmn)
 
