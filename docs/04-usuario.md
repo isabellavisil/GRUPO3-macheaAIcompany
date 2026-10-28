@@ -1,12 +1,12 @@
 
 Piensa y siente
 
-1. ¿Qué es lo que más le preocupa cuando atiende y califica leads en el equipo comercial?`<br>`
-2. Si pudiera cambiar una sola cosa de la atención de leads, ¿cuál sería y por qué?`<br>`
+1. ¿Qué es lo que más le preocupa cuando atiende y califica leads en el equipo comercial?|`<br>`
+2. Si pudiera cambiar una sola cosa de la atención de leads, ¿cuál sería y por qué?`|`<br>`
 
 Ve
-3. ¿Cómo es el lugar y con qué herramientas atiende a los leads (papel, Excel, CRM, WhatsApp, teléfono)?`<br>`
-4. ¿Ha visto en otra inmobiliaria o área una forma de atender leads que le parezca mejor? ¿Cuál?`<br>`
+3. ¿Cómo es el lugar y con qué herramientas atiende a los leads (papel, Excel, CRM, WhatsApp, teléfono)?|`<br>`
+4. ¿Ha visto en otra inmobiliaria o área una forma de atender leads que le parezca mejor? ¿Cuál?|`<br>`
 
 Oye
 5. ¿Qué le dicen su jefe, sus compañeros o los clientes de la inmobiliaria sobre cómo funciona la atención de leads?`<br>`
