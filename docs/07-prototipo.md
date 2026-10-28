@@ -23,4 +23,4 @@
 
 **Evidencia:**
 
-![Prototipo v0.1](../assets/prototipo-v01.png)
+![Prototipo v0.1](../Prototipo/prototipo-v01.png)
