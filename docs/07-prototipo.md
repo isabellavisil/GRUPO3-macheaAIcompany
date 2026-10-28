@@ -2,8 +2,7 @@
 ## Hipótesis del prototipo
 | | |
 |---|---|
-| **Qué vamos a construir** | Una página web para registrar los pedidos diarios de
-la panadería. |
+| **Qué vamos a construir** | Perfilamiento interactivo con agente de voz con IA. |
 | **Tipo de prototipo** | Página web |
 | **Usuario** | Encargada de pedidos |
 **Hipótesis**
