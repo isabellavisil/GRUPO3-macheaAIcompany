@@ -46,9 +46,9 @@ Hablamos como un colega que ayuda al asesor a vender más rápido, con un toque 
 
 ## 4. Logo
 
-El logo es una casa en coral con un reloj en azul marino en su interior. Representa la rapidez de respuesta al lead y el hogar que el cliente busca.
+El logo es una casa en coral atravesada por una flecha ascendente, con el nombre «machea» en azul marino debajo. La casa representa el hogar que el cliente busca y la flecha, el avance de cada lead hacia la venta.
 
-![Logo](../assets/campana/logo.png)
+![Logo](../assets/ChatGPT%20Image%20Aug%2024,%202026,%2011_33_41%20PM.png)
 
 ## 5. Stickers de lanzamiento
 
