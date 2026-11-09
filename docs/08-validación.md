@@ -43,4 +43,4 @@ Además, mide directamente nuestra métrica: que al menos 8 de cada 10 leads se 
 
 ### Qué vamos a cambiar
 
-Video: 
+Video: https://drive.google.com/file/d/1ju86dF4gvh5L1azK58fWaHcdpnh4JZ67/view?usp=sharing
