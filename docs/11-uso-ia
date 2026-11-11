@@ -1,1 +1,89 @@
-Se utilizo la herramienta de Chatgpt el dia 27 de octubre para la creación del mapa de empatia a partir de las respuestas de la entrevista
+# 11 · Declaración de uso de IA
+
+**Proyecto:** Machea AI Tech · Grupo 3 · Trend & Tech 2026 (Universidad EAN)
+**Alcance:** todo lo que contiene este repositorio (`GRUPO3-macheaAIcompany`) y la presentación final de Trend & Tech.
+**Integrantes:** Isabella Villamizar Silva (vocera), Juan Felipe López Lara (líder) y Juan José Téllez Prada.
+**Fecha de la declaración:** 11/11/2026
+
+## 1. Regla que aplicamos
+
+Seguimos la regla de bolsillo del Semáforo del Reglamento de IA: **si la IA tocó el entregable, se declara; si la IA reemplazó nuestro criterio, es una falta.**
+
+- **Verde (permitido):** consultar, explicar o revisar con IA sin que el resultado pase al entregable.
+- **Ámbar (se declara):** la IA redactó, diseñó o generó una parte del entregable. Cada caso tiene herramienta, versión, fecha, prompt y lo que hizo la IA.
+- **Rojo (falta):** citar una IA como fuente, entregar como propio algo que la IA hizo completo, o subir datos de la organización aliada. Nos comprometemos a no hacerlo.
+
+## 2. Resumen de usos
+
+| # | Entregable | Herramienta y versión | Fecha | Color |
+|---|---|---|---|---|
+| 1 | `docs/03-proceso-actual.md` (formato del proceso actual a partir del BPMN) | Claude (Claude Sonnet 5.5) | 26/10/2026 | Ámbar |
+| 2 | `assets/Mapa de empatía inmobiliaria la carolina.png` (mapa de empatía) | ChatGPT (versión no registrada) | 27/10/2026 | Ámbar |
+| 3 | `assets/ChatGPT Image Aug 24, 2026, 11_33_41 PM.png` (logo de Machea) | ChatGPT, generación de imágenes (versión no registrada) | 24/08/2026 (según el nombre del archivo) | Ámbar |
+| 4 | `assets/ficha-campana-machea.svg`, `.pdf`, `-vista-previa.png` y `assets/solicitud-fablab-ficha.md` | Claude (Claude Sonnet 5.5) | hasta el 06/11/2026 (fecha de subida al repositorio) | Ámbar |
+| 5 | `guion.md` (B-roll del guion del podcast) | Google Flow (versión no registrada) | 23/09/2026 (fecha de subida al repositorio) | Ámbar |
+| 6 | Presentación de Trend & Tech: diapositivas, guion de exposición y revisión del repositorio | Claude (Claude Sonnet 5.5) | 09/11/2026 al 11/11/2026 | Ámbar y verde |
+| 7 | IA que forma parte del producto: agente de voz y de texto «Manuela» | Dapta AI | en el prototipo en producción (machea.co) | Componente del producto |
+
+## 3. Detalle de cada uso
+
+### 3.1 Proceso actual (`docs/03-proceso-actual.md`)
+- **Qué hizo la IA:** pasó la información del diagrama BPMN al formato de la plantilla de «Proceso actual».
+- **Prompt:** «Genera de nuevo en este formato y devuélvelo, según el diagrama» (imagen del BPMN «Inscripción de asistentes a cada taller» más la plantilla de «Proceso actual»).
+- **Qué hizo el equipo:** definió el diagrama y revisó el resultado.
+
+### 3.2 Mapa de empatía
+- **Qué hizo la IA:** ChatGPT elaboró el mapa de empatía a partir de las respuestas de la entrevista a Jaime Barrera (Inmobiliaria de la Carolina, 26/10/2026).
+- **Prompt:** no se conservó el texto exacto. La instrucción fue crear el mapa de empatía a partir de las respuestas de la entrevista.
+- **Qué hizo el equipo:** realizó la entrevista, entregó las respuestas a la herramienta y revisó que el mapa reflejara lo que dijo el entrevistado.
+- **Datos compartidos con la IA:** solo las respuestas de la entrevista. No se cargaron bases de datos ni datos personales de clientes de la inmobiliaria.
+
+### 3.3 Logo de Machea
+- **Qué hizo la IA:** generó la imagen del logo (casa con flecha ascendente y la palabra «machea»).
+- **Prompt:** no se conservó.
+- **Qué hizo el equipo:** eligió el concepto, los colores de marca y su uso en `docs/10-campana.md` y en la presentación.
+
+### 3.4 Ficha de campaña y solicitud FabLab
+- **Qué hizo la IA:** Claude diseñó la ficha de campaña (`.svg`, `.pdf` y vista previa en `.png`) y redactó el borrador de `solicitud-fablab-ficha.md`.
+- **Prompt (resumen del pedido):** diseñar la ficha de la campaña de lanzamiento de Machea y redactar la solicitud de elementos para el FabLab. El texto exacto está en el historial de la conversación.
+- **Qué hizo el equipo:** definió la campaña (`docs/10-campana.md`) y decidió qué se solicitó al FabLab.
+
+### 3.5 Guion del podcast (`guion.md`)
+- **Qué hizo la IA:** el guion establece que el B-roll se genera con Google Flow y trae los prompts de cada plano en la sección «B-rolls para Google Flow».
+- **Prompts:** los de cada plano están en el propio guion.
+- **Redacción del guion:** el archivo no declara otra herramienta de IA.
+
+### 3.6 Presentación de Trend & Tech
+- **Qué hizo la IA (Claude Sonnet 5.5):**
+  - llenó la plantilla del pitch con la información del proyecto (25 diapositivas);
+  - redactó los textos y el guion de la exposición de unos 10 minutos, con el reparto de voceros por diapositiva;
+  - revisó el repositorio (commits, issues, documentos y la entrevista) para tomar de ahí los hechos y fechas.
+- **Prompt (resumen del pedido):** completar la plantilla del pitch con lo que hay en el repositorio; escribir el discurso de unos 10 minutos por diapositiva; revisar el repositorio para que el contenido coincida con lo documentado.
+- **Qué hace el equipo:**
+  - aporta los hechos, las cifras y las decisiones del proyecto;
+  - realizó la prueba de usabilidad; sus resultados reales están en la diapositiva 20;
+  - revisa el contenido antes de presentarlo.
+- **Datos compartidos con la IA:** los documentos del repositorio, incluidas las notas de la entrevista. No se compartieron bases de datos ni datos personales de clientes.
+- **Ejemplos ilustrativos (diapositiva 21):** la IA propuso ejemplos como borrador. No son hallazgos medidos. Antes de la sustentación, cada uno se reemplaza por un hallazgo real de la prueba o se rotula como «ilustrativo, generado con IA».
+- **Uso verde:** consultar a Claude cómo estaba organizado el repositorio y resumir su historial; ese resumen no pasó tal cual a ningún entregable.
+
+### 3.7 IA dentro del producto
+- **Dapta AI** da la voz y el texto del agente «Manuela», que llama al lead y agenda la cita (`docs/07-prototipo.md`).
+- **Recomendador de proyectos:** motor propio de reglas de elegibilidad y agrupación de perfiles. `docs/07-prototipo.md` menciona además un modelo de IA como tecnología candidata.
+- Esto es IA que forma parte de la solución, no ayuda para producir los documentos. Se declara para que quede claro dónde interviene.
+
+## 4. Lo que nos comprometemos a cumplir
+
+1. Toda IA que toque un entregable queda en esta declaración, con herramienta, versión, fecha, prompt y lo que hizo.
+2. Las decisiones, los datos y las conclusiones son del equipo; la IA ayudó con borradores, formato y diseño.
+3. No citamos a ninguna IA como fuente bibliográfica. Los datos externos remiten a su fuente original.
+4. No subimos bases de datos ni datos personales de la organización aliada; solo las respuestas de la entrevista.
+5. Los textos o imágenes de ejemplo generados con IA se rotulan como tales.
+6. Cada integrante entiende y puede sustentar todo lo que entrega.
+
+## 5. Límites de esta declaración
+
+- Para los usos 2 y 3 no se conservó el prompt exacto ni la versión del modelo de ChatGPT.
+- Este repositorio no contiene el código fuente del prototipo (solo enlaces y documentación). Si el código tuvo ayuda de IA, se declara en el repositorio donde esté.
+- Los prompts de los usos 4 y 6 están resumidos; el texto exacto está en el historial de las conversaciones, que se conserva en las cuentas de las herramientas y puede mostrarse si se solicita.
+- Este documento reemplaza al archivo `docs/11-uso-ia` (sin extensión), cuyo contenido quedó incluido en el uso 2. Es el archivo al que remite `docs/03-proceso-actual.md`
